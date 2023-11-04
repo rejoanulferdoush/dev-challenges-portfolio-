@@ -58,12 +58,12 @@ body {
   font-size: 18px;
   font-weight: 500;
 }
-.tag a{
+.tag a {
   text-decoration: none;
   color: #828282;
   font-size: 18px;
 }
-.tag-null{
+.tag-null {
   text-decoration: none;
 }
 .n-font {
@@ -196,7 +196,9 @@ body {
   background-color: #fff;
   border-radius: 12px;
 }
-.project-one {
+.project-one,
+.project-two,
+.project-three {
   background-color: #fff;
   border-radius: 12px;
   padding: 20px;
@@ -205,6 +207,7 @@ body {
   gap: 20px;
 }
 .project-image > img {
+  text-align: center;
   background-repeat: no-repeat;
   width: 322px;
   height: 274px;
