@@ -10,6 +10,7 @@ body {
   padding: 10px;
   background-color: #f2f2f2;
 }
+/* /////////////////////////////////// */
 /* build styles */
 .main-container {
   display: flex;
@@ -29,6 +30,7 @@ body {
   justify-content: space-evenly;
   gap: 20px;
 }
+/* /////////////////////////////////// */
 /* ready styles */
 .mt-in-one {
   margin-top: 10px;
@@ -96,12 +98,12 @@ body {
   border: 1px solid #2f80ed;
 }
 /* Custom styles */
+/* /////////////////////////////////// */
 /* profile styles */
 .profile-card {
   height: auto;
   width: 450px;
   background-color: #fff;
-  /* box-shadow: 0px 0px 36px -23px black; */
   border-radius: 12px;
   padding: 20px;
 }
@@ -111,7 +113,24 @@ body {
   width: 410px;
   border-radius: 12px;
 }
-/* frontend and design skills card styles */
+/* experience styled */
+.experience {
+  width: 450px;
+  height: auto;
+  border-radius: 12px;
+  background-color: #fff;
+  padding: 20px;
+}
+.experience-one, .experience-two, .experience-three {
+  display: flex;
+  gap: 30px;
+}
+.exp-one-image > img, .exp-two-image>img, .exp-three-image>img {
+  width: 84px;
+  height: 84px;
+}
+/* /////////////////////////////////// */
+/* body content / frontend and design skills card styles */
 .front-end,
 .design-end {
   background-color: #fff;
@@ -216,7 +235,7 @@ body {
   background-repeat: no-repeat;
   display: flex;
   width: 322px;
-  height: 274px;
+  height: 240px;
   border-radius: 12px;
 }
 .content-tag {
@@ -252,10 +271,10 @@ body {
   background-color: #fff;
   border-radius: 12px;
 }
-.pagination{
+.pagination {
   text-align: right;
 }
-.pagination>a{
+.pagination > a {
   text-decoration: none;
 }
 .pg-box {
@@ -266,7 +285,7 @@ body {
   color: #4f4f4f;
   border: 2px solid #e8e8e8;
 }
-.active{
+.active {
   padding: 3px 15px;
   width: 36px;
   height: 36px;
