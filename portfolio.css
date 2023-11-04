@@ -37,10 +37,15 @@ body {
   margin-top: 30px;
 }
 .mb {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .mt-out {
   margin-top: 50px;
+}
+.l-font {
+  color: #e0e0e0;
+  font-size: 16px;
+  font-weight: 500;
 }
 .h-font {
   color: #4f4f4f;
@@ -189,8 +194,9 @@ body {
   background-color: #2f80ed;
   border-radius: 12px;
 }
-/* project count head styles */
-.project-head {
+/* project and blog styles */
+.project-head,
+.blog-head {
   padding: 20px;
   height: 66px;
   background-color: #fff;
@@ -207,8 +213,8 @@ body {
   gap: 20px;
 }
 .project-image > img {
-  text-align: center;
   background-repeat: no-repeat;
+  display: flex;
   width: 322px;
   height: 274px;
   border-radius: 12px;
@@ -216,4 +222,27 @@ body {
 .content-tag {
   display: flex;
   gap: 20px;
+}
+/* blog styles */
+.blog-one {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+.blog-image > img {
+  display: flex;
+  background-repeat: no-repeat;
+  width: 420px;
+  height: 274px;
+  border-radius: 12px 0px 0px 12px;
+  margin-right: -20px;
+}
+.outbound-link {
+  color: #2f80ed;
+  text-decoration: none;
+  font-weight: 500;
 }
