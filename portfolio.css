@@ -141,7 +141,7 @@ body {
   background-color: #fff;
   padding: 20px;
 }
-.hobbies-content a{
+.hobbies-content a {
   text-decoration: none;
 }
 .hobbies-image > img {
@@ -285,6 +285,27 @@ body {
   color: #2f80ed;
   text-decoration: none;
   font-weight: 500;
+}
+/* blog gallery styles */
+.blog-gallery{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.blog-two a, .blog-three a, .blog-four a{
+  text-decoration: none;
+}
+.blog-two, .blog-three, .blog-four {
+  width: 330px;
+  height: 568px;
+  border-radius: 12px;
+  background: #fff;
+  padding: 20px;
+}
+.blog-two-image > img, .blog-three-image > img, .blog-four-image > img {
+  background-repeat: no-repeat;
+  width: 292px;
+  height: 217px;
+  border-radius: 12px;
 }
 /* blog pagination */
 .blog-pagination {
