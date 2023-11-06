@@ -1,0 +1,103 @@
+/* global styles */
+* {
+  margin: 0px auto;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #f2f2f2;
+}
+main {
+  width: 1300px;
+  overflow: hidden;
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+a{
+  text-decoration: none;
+}
+/* ***************** PRE STYLES ***************** */
+/* PRE STYLES / margin styles */
+.mt--one{
+  margin-top: 10px;
+}
+.mt--two{
+  margin-top: 30px;
+}
+.mt--three{
+  margin-top: 50px;
+}
+/* PRE STYLES / font styles */
+.font--active {
+  color: #2f80ed;
+  transition: 0.5s;
+}
+.h--font {
+  color: #4f4f4f;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.h--font--two {
+  color: #4f4f4f;
+  font-size: 24px;
+  font-weight: 600;
+}
+.h--font--three {
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+}
+.n--font {
+  color: #828282;
+  font-size: 16px;
+}
+.t--font {
+  color: #e0e0e0;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* PRE STYLES / btn styles */
+.btn--fill {
+  color: #f2f2f2;
+  padding: 15px 25px;
+  border-radius: 12px;
+  background-color: #2f80ed;
+}
+.btn--fill:hover {
+  color: #f2f2f2;
+  padding: 15px 25px;
+  border-radius: 12px;
+  background-color: rgb(24, 95, 189);
+  transition: 0.5s;
+}
+.btn--border {
+  color: #2f80ed;
+  padding: 15px 25px;
+  border-radius: 12px;
+  border: 1px solid #2f80ed;
+}
+.btn--border:hover {
+  color: #2f80ed;
+  padding: 15px 25px;
+  border-radius: 12px;
+  transition: 0.5s;
+  border: 1px solid #2f80ed;
+  background-color: #2f81ed1b;
+}
+/* ////////////////////////////////////// */
+/* profile card styles */
+.aside__profile--card {
+  padding: 20px;
+  height: auto;
+  width: 413px;
+  border-radius: 12px;
+  background: #fff;
+}
+.aside__profile--img>img{
+  height: auto;
+  width: 100%;
+  border-radius: 12px;
+}
