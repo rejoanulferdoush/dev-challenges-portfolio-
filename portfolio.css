@@ -15,18 +15,18 @@ main {
   gap: 30px;
   justify-content: space-evenly;
 }
-a{
+a {
   text-decoration: none;
 }
 /* ***************** PRE STYLES ***************** */
 /* PRE STYLES / margin styles */
-.mt--one{
+.mt--one {
   margin-top: 10px;
 }
-.mt--two{
+.mt--two {
   margin-top: 30px;
 }
-.mt--three{
+.mt--three {
   margin-top: 50px;
 }
 /* PRE STYLES / font styles */
@@ -96,8 +96,57 @@ a{
   border-radius: 12px;
   background: #fff;
 }
-.aside__profile--img>img{
+.aside__profile--img > img {
   height: auto;
   width: 100%;
   border-radius: 12px;
+}
+/* skills card styles */
+.skills__container{
+  display: flex;
+  gap: 20px;
+}
+.card--tittle{
+  margin: 0px;
+}
+.frontend__card {
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  background: #fff;
+}
+.react__skill,
+.javascript__skill,
+.css__skill,
+.vue__skill,
+.redux__skill,
+.react__native__skill {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+.react__progress__container,
+.javascript__progress__container,
+.css__progress__container,
+.vue__progress__container,
+.redux__progress__container,
+.react__native__progress__container {
+  width: 237px;
+  height: 10px;
+  border-radius: 12px;
+  background: #c4c4c4;
+}
+.react__progress,
+.javascript__progress,
+.css__progress,
+.vue__progress,
+.redux__progress,
+.react__native__progress {
+  width: 75%;
+  height: 10px;
+  border-radius: 12px;
+  background: #2f80ed;
+  margin: 0px;
 }
