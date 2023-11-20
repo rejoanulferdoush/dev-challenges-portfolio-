@@ -17,6 +17,7 @@ main {
 }
 a {
   text-decoration: none;
+  color: #4f4f4f;
 }
 /* ***************** PRE STYLES ***************** */
 /* PRE STYLES / margin styles */
@@ -29,11 +30,14 @@ a {
 .mt--three {
   margin-top: 50px;
 }
-/* PRE STYLES / font styles */
-.font--active {
+/* PRE STYLES / Font hover */
+.project__context > h3 > a:hover,
+.tags > p > a:hover {
   color: #2f80ed;
   transition: 0.5s;
 }
+
+/* PRE STYLES / font styles */
 .h--font {
   color: #4f4f4f;
   font-size: 18px;
@@ -62,30 +66,32 @@ a {
 /* PRE STYLES / btn styles */
 .btn--fill {
   color: #f2f2f2;
-  padding: 15px 25px;
+  padding: 12px 40px;
   border-radius: 12px;
   background-color: #2f80ed;
+  border: none;
 }
 .btn--fill:hover {
-  color: #f2f2f2;
-  padding: 15px 25px;
+  color: #2f80ed;
+  padding: 12px 40px;
   border-radius: 12px;
-  background-color: rgb(24, 95, 189);
   transition: 0.5s;
+  border: 1px solid #2f80ed;
+  background-color: #ffffff;
 }
 .btn--border {
   color: #2f80ed;
-  padding: 15px 25px;
+  padding: 12px 40px;
   border-radius: 12px;
   border: 1px solid #2f80ed;
+  background-color: #ffffff;
 }
 .btn--border:hover {
-  color: #2f80ed;
-  padding: 15px 25px;
+  color: #f2f2f2;
+  padding: 12px 40px;
   border-radius: 12px;
+  background-color: #2f80ed;
   transition: 0.5s;
-  border: 1px solid #2f80ed;
-  background-color: #2f81ed1b;
 }
 /* ////////////////////////////////////// */
 /* profile card styles */
@@ -109,8 +115,13 @@ a {
 .card--tittle {
   margin: 0px;
 }
-.frontend__card,
-.frontend__card,
+.frontend__card {
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  background: #fff;
+}
 .design__card {
   padding: 20px;
   width: 100%;
@@ -199,4 +210,37 @@ a {
   border-radius: 12px;
   background: #2f80ed;
   margin: 0px;
+}
+/* ////////////// PROJECT STYLES ////////////// */
+.project__bread__crumb {
+  border-radius: 12px;
+  background: #fff;
+  padding: 20px;
+}
+.project__one,
+.project__two, .project__three {
+  display: flex;
+  gap: 30px;
+  border-radius: 12px;
+  background: #fff;
+  padding: 20px;
+}
+.featured__img__one, .featured__img__two, .featured__img__three {
+  display: flex;
+}
+.featured__img__one > img, .featured__img__two > img, .featured__img__three > img {
+  width: 322px;
+  height: 274px;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+.tags > p {
+  margin: 0px;
+}
+.tags {
+  display: flex;
+  gap: 20px;
+}
+.demo__btn {
+  margin-right: 10px;
 }
