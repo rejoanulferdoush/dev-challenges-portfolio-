@@ -102,14 +102,16 @@ a {
   border-radius: 12px;
 }
 /* skills card styles */
-.skills__container{
+.skills__container {
   display: flex;
   gap: 20px;
 }
-.card--tittle{
+.card--tittle {
   margin: 0px;
 }
-.frontend__card {
+.frontend__card,
+.frontend__card,
+.design__card {
   padding: 20px;
   width: 100%;
   height: auto;
@@ -121,7 +123,9 @@ a {
 .css__skill,
 .vue__skill,
 .redux__skill,
-.react__native__skill {
+.react__native__skill,
+.figma__skill,
+.photoshop__skill {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
@@ -132,19 +136,65 @@ a {
 .css__progress__container,
 .vue__progress__container,
 .redux__progress__container,
-.react__native__progress__container {
+.react__native__progress__container,
+.figma__progress__container,
+.photoshop__progress__container {
   width: 237px;
   height: 10px;
   border-radius: 12px;
   background: #c4c4c4;
 }
-.react__progress,
-.javascript__progress,
-.css__progress,
-.vue__progress,
-.redux__progress,
-.react__native__progress {
+.photoshop__progress {
+  width: 95%;
+  height: 10px;
+  border-radius: 12px;
+  background: #2f80ed;
+  margin: 0px;
+}
+.figma__progress {
+  width: 91%;
+  height: 10px;
+  border-radius: 12px;
+  background: #2f80ed;
+  margin: 0px;
+}
+.react__progress {
   width: 75%;
+  height: 10px;
+  border-radius: 12px;
+  background: #2f80ed;
+  margin: 0px;
+}
+.javascript__progress {
+  width: 88%;
+  height: 10px;
+  border-radius: 12px;
+  background: #2f80ed;
+  margin: 0px;
+}
+.css__progress {
+  width: 90%;
+  height: 10px;
+  border-radius: 12px;
+  background: #2f80ed;
+  margin: 0px;
+}
+.vue__progress {
+  width: 66%;
+  height: 10px;
+  border-radius: 12px;
+  background: #2f80ed;
+  margin: 0px;
+}
+.redux__progress {
+  width: 85%;
+  height: 10px;
+  border-radius: 12px;
+  background: #2f80ed;
+  margin: 0px;
+}
+.react__native__progress {
+  width: 95%;
   height: 10px;
   border-radius: 12px;
   background: #2f80ed;
