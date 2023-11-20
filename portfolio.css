@@ -117,14 +117,14 @@ a {
 }
 .frontend__card {
   padding: 20px;
-  width: 100%;
+  width: 413px;
   height: auto;
   border-radius: 12px;
   background: #fff;
 }
 .design__card {
   padding: 20px;
-  width: 100%;
+  width: 413px;
   height: auto;
   border-radius: 12px;
   background: #fff;
@@ -218,17 +218,24 @@ a {
   padding: 20px;
 }
 .project__one,
-.project__two, .project__three {
+.project__two,
+.project__three {
   display: flex;
   gap: 30px;
   border-radius: 12px;
   background: #fff;
   padding: 20px;
+  width: 859px;
+  height: 320px;
 }
-.featured__img__one, .featured__img__two, .featured__img__three {
+.featured__img__one,
+.featured__img__two,
+.featured__img__three {
   display: flex;
 }
-.featured__img__one > img, .featured__img__two > img, .featured__img__three > img {
+.featured__img__one > img,
+.featured__img__two > img,
+.featured__img__three > img {
   width: 322px;
   height: 274px;
   background-repeat: no-repeat;
